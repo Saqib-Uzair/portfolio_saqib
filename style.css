@@ -1,0 +1,93 @@
+* {
+        margin: 0;
+        padding: 0;
+      }
+    
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        background-color: rgb(23, 22, 22);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        background-color: rgb(24, 3, 3);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 30px;
+      }
+
+      button {
+        border: none;
+        padding: 15px;
+        border-radius: 20px;
+        margin: 10px;
+        font-size: 20px;
+      }
+
+      button:hover {
+        color: #00adb5;
+      }
+
+      .left {
+        font-size: 2rem;
+        padding: 10px;
+      }
+
+      .left:hover {
+        color: #00adb5;
+      }
+
+      #profile {
+        width: 200px;
+        border-radius: 50%;
+        margin: 10px;
+      }
+
+      .main_div {
+        text-align: center;
+        font-size: 30px;
+      }
+
+      .button_main button {
+        font-size: 20px;
+      }
+
+      .button_main button:hover{
+        color: #00adb5;
+      }
+
+      a {
+        text-decoration: none;
+        color: grey;
+      }
+
+      .contact_me a {
+        font-size: 50px;
+        margin: 10px;
+        color: white;
+      }
+
+      .contact_me a:hover{
+        color: #00adb5;
+      }
+
+      footer {
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+      }
+    
+      @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
